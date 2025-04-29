@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data type in javascript</title>
+</head>
+<body>
+    <div>
+        <header></header>
+        <footer></footer>
+
+
+    </div>
+
+    <script>
+        //data type in js   primitive data-types
+        let name = "kanha"; //string
+        let age = 20; //number
+        let marriedStatus = false; //boolean
+        let address = null; //object
+        let mobile = undefined; // undefined
+
+        let aadharcard = BigInt(8562356239659256256923); //bigint
+        let phone = Symbol(4632863); //symbol
+
+
+
+
+        //non-primitive data-types
+        //array
+        let array = {};
+        let array2 = new Array();
+        let studentsName = ["kanha", "vasu", "anil", 0, 5995, 5959];
+        
+        console.log(studentsName)
+
+        //object
+        let profile = {};
+        let profile2 = new Object();
+        let profile3 = {
+            name: "kanha",
+            age: 20,
+            marriedStatus: false,
+            havingMobiles: ["iphone16", "iphone15",],
+        };
+        console.log(profile3)
+
+        let profile4 = {
+            name: "kanha pareek",
+            age: 23,
+            marriedStatus: true,
+            havingMobiles: ["relami9", "iphone13",],
+        }
+        console.log(profile4)
+        let allStudents = [profile2, profile3, profile4]
+        console.log(allStudents)
+
+        
+        
+        
+    </script>
+    
+</body>
+</html>

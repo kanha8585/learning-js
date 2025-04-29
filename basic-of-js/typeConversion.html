@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript- class-3</title>
+</head>
+<body>
+    <h2>Type of conversion in javascript</h2>
+
+    <script>
+        let num = "123.99"
+        let num2 = 1034
+        let age = 23
+        let married = false
+        let firstName = "kanha"
+        let lastName = "pareek"
+        console.log(num, num2, age, married, firstName, lastName)
+
+        // conversion numbers and string
+        let conversion = Number(num)           // string to number
+
+        console.log (conversion)
+
+        let numberToString = String(num2)      // number to string
+        console.log(numberToString)
+
+        let booleanToNumber = Number(married) // boolen to number
+        console.log(Number) 
+        let stringAlphabetToNumber = Number(firstName)   //output will be: nan
+        console.log(Number)
+
+        // parseFloat and parseInt
+        let num3 = 583952395.987               // //parseInt(num3)    //it returns you only value without decimalPoint
+        console.log(num3)
+         let num4 = "988.7"                   // // parseFloat(num4)     //it will give you value along with decimal point
+         console.log(num4)
+
+
+         
+    let fullName = firstName + " " +lastName
+    console.log(firstName + lastName)
+    let dateOfBirth = 2003
+    console.log(dateOfBirth)
+
+
+
+    console.log("kanha" + 23)           // kanha23
+    console.log(23 + "kanha")           // 23kanha
+    console.log(23 + 2003 + "kanha")     // 2026kanha
+    console.log("kanha" + 23 + 2023 )    // kanha232023
+ 
+
+
+
+
+    </script>
+    
+</body>
+</html>
