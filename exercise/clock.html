@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time in javascript</title>
+</head>
+<body>
+    <div class="Time">
+        
+    </div>
+
+    <script>
+        let timeelement = document.querySelector(".time")
+        setInterval(() => {
+            let date = new date ()
+            timeelement.innerHTML = date.tolocaletimestring()
+        },1000)
+    </script>
+
+
+    
+</body>
+</html>
