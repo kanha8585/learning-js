@@ -5,7 +5,7 @@ let ul = document.querySelector("ul")
 
 
 savebtn.addEventListener("click",()=>{
-    if (input.value=== ""){
+    if (input.value.trim() === ""){
         alert("please enter a task")
         return
     }
@@ -14,7 +14,7 @@ savebtn.addEventListener("click",()=>{
     li.innerHTML = `${input.value}<button class="delete">x</button>`
     ul.appendChild(li)
     input.value = ""
-    li.firstElementChild.addEventListener("click",()=>{
+    li.firstElementChild.addEventListener("click",(e)=>{
         li.remove()
     })
 
