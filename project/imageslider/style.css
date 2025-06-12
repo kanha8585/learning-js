@@ -1,10 +1,8 @@
 
 body{
-    background: #22C1C3;
-background: linear-gradient(0deg, rgba(34, 193, 195, 1) 77%, rgba(251, 187, 255, 1) 30%);
-background: #000;
+    background-image: url(./image/8.jpg);
+     
  
-background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 20%);
 }
 
 
