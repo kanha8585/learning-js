@@ -56,7 +56,7 @@ body img{
 }
 
 .btn:hover {
-    background-color: lightblue;
+    background-color: rgb(15, 102, 131);
     cursor: pointer;
     transition: 0.3s;
 

@@ -1,13 +1,5 @@
-let btns = document.querySelector("button")
+let btns = document.querySelectorAll("button")
 let parent= document.querySelector(".wrapper")
-
-// btns.forEach((btn) => {
-//     btns.addEventlistener("click",(e)=>{
-//         console.log(e.target)
-//         e.target.style.backgroundColor ="white"
-//         e.target.style.color = "black"
-//     })
-// })
 
   btns.forEach((btn) => {
     btn.addEventListener("click", (e)=>{ 
