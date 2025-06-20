@@ -1,13 +1,13 @@
   
-import './App.css';
+// import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h2>Hello world</h2>
+      {/* <h2>Hello world</h2>
       <h1>Welcome To React</h1>
-      <h5>Kanha pareek</h5>
-      <button
+      <h5>Kanha pareek</h5> */}
+      {/* <button
         className="animated-btn"
         style={{
           backgroundColor: 'blue',
@@ -24,7 +24,7 @@ function App() {
       >
         Save
       </button>
-      <a href='https://reactjs.org'>Learn More</a>
+      <a href='https://reactjs.org'>Learn More</a> */}
     </div>
   );
 }
